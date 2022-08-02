@@ -1,0 +1,49 @@
+.join{
+    display: flex;
+    padding: 0 2rem;
+    gap: 10rem;
+}
+
+.leftjoin{
+    color: azure;
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.leftjoin>hr{
+    width:45rem;
+    border: 2px solid var(--orange);
+    border-radius: 20%;
+}
+
+.rightjoin{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.emailcontain{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    background-color: gray;
+    padding: 1rem;
+}
+
+.emailcontain>input{
+    border-radius: 10px;
+    height: 2rem;
+    width: 18vw;
+    background-image: linear-gradient(to right, #ea7171, rgb(130, 213, 239));
+}
+
+.emailcontain>input::-webkit-input-placeholder{
+    color: azure;
+}
+
+
+.emailcontain>button{
+    align-self: center;
+}

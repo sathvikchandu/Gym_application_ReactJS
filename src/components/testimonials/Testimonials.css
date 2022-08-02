@@ -1,0 +1,75 @@
+.testimonials{
+    display: flex;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.lefttest{
+    display: flex;
+    flex:1;
+    gap: 2rem;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: azure;
+}
+
+.lefttest>:nth-child(1){
+    color: var(--orange);
+    font-weight: bold;
+    align-self: center;
+    font-size:xx-large;
+
+}
+
+.lefttest>:nth-child(2){
+    font-weight: bold;
+    font-size: 3rem;
+    align-self: center;
+}
+.lefttest>:nth-child(3){
+    font-size: 1rem;
+    align-self: center;
+    font-weight: bold;
+}
+
+.lefttest>:nth-child(4){
+    font-size: 1rem;
+    text-transform: none;
+    text-align: justify;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.rightside{
+    flex: 1;
+    
+}
+
+
+.righttest>img{
+   
+    width: 15rem;
+    height: 20rem;
+    object-fit: cover;
+    margin-right: 10rem;
+    right: 30rem;
+    top: 2rem;
+}
+
+.arrows{
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    margin-top: 2rem;
+    gap: 1rem;
+    bottom: 1rem;
+    margin-right: 20vw;
+
+}
+
+.arrows>img{
+
+    width: 1.5rem;
+    cursor: pointer;
+}
+
